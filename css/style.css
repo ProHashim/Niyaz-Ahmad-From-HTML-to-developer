@@ -1,0 +1,133 @@
+/* External Styling */
+
+/* Syntax */
+selector {
+  property: value;
+}
+
+/* Comment */
+
+/* Colors */
+
+/* Colors by names */
+h1 {
+  color: red;
+}
+
+/* color name hex */
+h1 {
+  /* #000000 #rrggbb */
+  color: #da0a0a00;
+  /* We can also use hex value in 3 digits */
+  color: #da0;
+}
+
+/* color name by rgb */
+h1 {
+  /* values go from 0-255 */
+  color: rgb(0, 0, 255);
+}
+/* color name by hsl */
+h1 {
+  /* values go from 0-360, 0-100, 0-100 */
+  color: hsl(0, 100%, 50%);
+}
+
+/* color name by rgba() */
+h1 {
+  /* values go from 0-255 */
+  color: rgba(0, 0, 255, 1);
+}
+/* color name by hsla() */
+h1 {
+  /* values go from 0-360, 0-100, 0-100, 0-1 */
+  color: hsla(0, 100%, 50%, 0.7);
+}
+
+/* ID selector */
+#good {
+  color: green;
+}
+/* class selectr */
+.diff {
+  /* property: value; */
+}
+/* element.class */
+span.myspan {
+  color: red;
+}
+
+/* element / Tag selector */
+span {
+  color: violet;
+}
+/* element#id */
+span#myspan {
+  color: grey;
+}
+
+/* multiple selectors */
+em,
+strong,
+b,
+q {
+  color: blue;
+}
+
+/* child selector */
+section article h1 {
+  color: green;
+}
+
+.myb {
+  /* font-size: 100px; */
+}
+
+.myb span {
+}
+
+/* universal selector */
+* {
+}
+
+/* Child selector */
+div.myb > span {
+  color: #da0;
+}
+
+/* Attribute Selector */
+a[href] {
+  /* color: #da0; */
+}
+/* pseudo selector */
+
+/* List styling */
+ul li {
+  /* list-style-type: none; */
+  /* display */
+
+  display: inline;
+  /* display: none; */
+  /* spacing */
+  padding: 10px;
+  list-style-position: outside;
+  /* list-style-image: url("../poster.jpg"); */
+  /* .gif */
+}
+
+.div1 {
+  width: 200px;
+  height: 200px;
+  background-color: #da0;
+  z-index: 3;
+  position: relative;
+}
+.div2 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  margin-top: -40px;
+  margin-left: 40px;
+  position: relative;
+  z-index: 4;
+}
